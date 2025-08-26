@@ -356,7 +356,7 @@ if (!$debug_mode) {
             text-align: center;
         }
         .close-button:hover {
-            color: #cc0000;
+            color: #ff0000;
         }
         .guestbook-form-container {
             position: relative;
