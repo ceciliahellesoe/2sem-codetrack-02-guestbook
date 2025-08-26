@@ -407,27 +407,27 @@ if (!$debug_mode) {
 <body>
     <div class="container">
         <marquee behavior="alternate" scrollamount="3">
-            <h1>~*~ My Guestbook ~*~</h1>
+            <h1>~*~ Min Gæstebog:) ~*~</h1>
         </marquee>
         <div class="welcome-message">
             <span style="color:#ff6699;">★</span>
-            Welcome to my <blink>AWESOME</blink> Homepage!
+            Velkommen tabere til min <blink>SPEKTAKULÆRE</blink> Gæstebog
             <span style="color:#ff6699;">★</span>
             <br>
             <span style="color:#6666cc; font-size:11px;">
-                You are visitor #<?php echo random_int(10000, 99999); ?> since 03/14/2000
+                DU er besøgende nr.: #<?php echo random_int(10000, 99999); ?> siden jeg lavede det her
             </span>
             <br>
             <div style="margin-top:8px; font-size:13px;">
-                This site is best viewed in Netscape Navigator 4.0 or Internet Explorer 5.0 at 800x600 resolution.
+                Hvis du skriver noget pænt får jeg bedre selvtillid og danser i mit køkken. Skriver du noget dårligt sender jeg dig en brevbombe>:(
                 <br>
-                Please sign my guestbook to let me know you stopped by! <b>No</b> spam please! ^_^
+                Skriv i min gæstebog så jeg ved du kiggede forbi! <b>Ingen</b> konstruktiv kritik please! ^_^
             </div>
         </div>
 
         <div class="toggle-button-container">
             <button id="toggleFormButton" class="toggle-button" onclick="toggleGuestbookForm()">
-                Click here to sign my guestbook!
+                Klik her for at skrive søde ting om mig:)!
             </button>
         </div>
 
@@ -463,11 +463,11 @@ if (!$debug_mode) {
         </div>
 
         <div class="entries">
-            <h2><?php echo count($entries); ?> Entries</h2>
+            <h2><?php echo count($entries); ?> Beskeder</h2>
 
             <?php if (empty($entries)): ?>
                 <div class="no-entries">
-                    No entries yet. Be the first to sign my guestbook!
+                    Ingen havde noget pænt at sige endnu:(
                 </div>
             <?php else: ?>
                 <?php foreach ($entries as $entry): ?>
@@ -497,12 +497,12 @@ if (!$debug_mode) {
                 <div style="margin-bottom:10px;">
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwAgMAAAAqbBEUAAAACVBMVEUAAAD///8AAABzxoNxAAAAAnRSTlMAAHaTzTgAAAAtSURBVHicY2DAD1SxwADDqAIsQIZqFAwahoZGDShoZGRktMGgkZFxowZuAAAoXwEg9KnZcAAAAABJRU5ErkJggg==" alt="under construction" class="construction-image construction-image-left">
                     <span class="construction-text">
-                        <blink>UNDER CONSTRUCTION</blink> - Please excuse our dust!
+                        <blink>SEND MIG PENGE</blink> -!
                     </span>
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwAgMAAAAqbBEUAAAACVBMVEUAAAD///8AAABzxoNxAAAAAnRSTlMAAHaTzTgAAAAtSURBVHicY2DAD1SxwADDqAIsQIZqFAwahoZGDShoZGRktMGgkZFxowZuAAAoXwEg9KnZcAAAAABJRU5ErkJggg==" alt="under construction" class="construction-image construction-image-right">
                 </div>
                 <div style="margin:10px 0; color:#666699;">
-                    Made with <span style="color:#ff0000;">&hearts;</span> on a Pentium III using Notepad
+                    Støt mig på Mobilepay <span style="color:#ff0000;">&hearts;</span> 23907402
                 </div>
                 <div style="margin-top:10px;">
                     <a href="#" onclick="alert('Coming soon!');">Home</a> |
